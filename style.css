@@ -540,7 +540,6 @@ h1 {
 }
 
 .colors div::before {
-  content: attr(data-name);
   font-size: 14px; /* Taille du texte ajustée */
   margin-bottom: 10px;
 }
