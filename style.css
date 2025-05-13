@@ -550,7 +550,6 @@ h1 {
 }
 
 .colors div span::after {
-  content: attr(data-code);
   font-style: italic;
   font-size: 14px; /* Corrigé la taille pour que ce soit cohérent */
   margin-top: 5px;
