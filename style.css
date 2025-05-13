@@ -555,3 +555,7 @@ h1 {
   font-size: 14px; /* Corrigé la taille pour que ce soit cohérent */
   margin-top: 5px;
 }
+.color.copied {
+  outline: 3px solid #fff;
+  box-shadow: 0 0 10px white;
+}
