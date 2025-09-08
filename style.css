@@ -538,7 +538,9 @@ h1 {
 .palette .colors.pastel div[data-name="Cloudy Morning"] {
   background-color: #c4d1e0;
 }
-
+.palette .other div[data-name="Dark Horizon"] {
+  background-color: #6a629b;
+}
 .colors div::before {
   font-size: 14px; /* Taille du texte ajustée */
   margin-bottom: 10px;
