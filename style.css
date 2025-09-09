@@ -65,7 +65,7 @@ h1 {
 
 @media (max-width: 768px) {
   .nav-links {
-    position: absolute;
+    position: fixed; /* fixé par-dessus tout */
     top: 60px;
     right: 0;
     background: #5a2a99;
@@ -74,6 +74,7 @@ h1 {
     display: none;
     padding: 15px;
     border-radius: 0 0 0 10px;
+    z-index: 1000; /* passe devant le contenu */
   }
 
   .nav-links.show {
