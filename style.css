@@ -20,6 +20,72 @@ h1 {
   font-weight: normal;
   margin-top: -10px;
 }
+/* Nav container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5a2a99;
+  padding: 10px 20px;
+}
+
+/* Logo */
+.nav-logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+/* Toggle (mobile only) */
+.nav-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #5a2a99;
+    flex-direction: column;
+    width: 200px;
+    display: none;
+    padding: 15px;
+    border-radius: 0 0 0 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
 
 /* Palette */
 .palette {
