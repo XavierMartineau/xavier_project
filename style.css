@@ -12,6 +12,14 @@ h1 {
   margin-top: 20px;
   color: white;
 }
+/* Style du sous-titre */
+.credits {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  font-weight: normal;
+  margin-top: -10px;
+}
 
 /* Palette */
 .palette {
